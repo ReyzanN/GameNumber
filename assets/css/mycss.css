@@ -1,0 +1,42 @@
+/*
+ &Copy - Deign Reyzan
+ Twitter : @GateanChamoret
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#game-main-index {
+    background-color: rgb(90, 90, 140);
+}
+
+#containerMainGameIndex {
+    background-color: rgb(112, 112, 157);
+    width: 50%;
+    height: 350px;
+    border-radius: 7px;
+    top : 30vh;
+    position : relative;
+}
+
+.text-main-index {
+    color: white;
+    padding: 10px;
+    font-family: Bahnschrift, cursive;
+}
+
+.btn-valid-game {
+    color: white;
+    background-color: #257e4e;
+    transition: 0.25s;
+    border: none;
+    transform-style: revert;
+}
+
+.btn-valid-game:hover{
+    border: none;
+    background-color: #169665;
+    color: white;
+}

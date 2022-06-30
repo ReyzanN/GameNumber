@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>GameNumber - ReyzanGame's</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/mycss.css">
+    <link href="../assets/js/bootstrap.bundle.js">
+</head>
+<body id="game-main-index" onload="ConsoleInitiation()">
+    <div class="container" id="containerMainGameIndex">
+        <h1 class="text-center text-main-index">GameNumber</h1>
+        <p><i>Règle du jeu : Trouver le bon numéro qui est aléatoire entre 0 et 2500, trois chances pour le trouver, chaque fois que tu prospectes le nombre change, Bonne chance.</i></p>
+        <hr>
+        <input id="GameMainInput" class="form-control text-center">
+        <br>
+        <button class="btn btn-valid-game" onclick="ProspectNumber()">Jouer !</button>
+        <h5 class="text-center">Vos essaies sont de <span id="GameHitCount">0</span> / 3</h5>
+    </div>
+
+    <script src="../GameCore/index.js"></script>
+</body>
+</html>
